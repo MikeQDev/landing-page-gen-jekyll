@@ -1,0 +1,19 @@
+div.dp-row {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 20px;
+}
+
+div.dp-text {
+  display: inherit;
+  flex-direction: column;
+}
+
+div.dp-image {
+  display: inherit;
+}
+
+img.dp-img {
+  max-width: 100%;
+  margin: 0 auto;
+}

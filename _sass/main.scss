@@ -1,0 +1,42 @@
+html {
+}
+
+body {
+  background-color: white;
+  min-height: 100vh;
+  font-family: 'Didact Gothic', sans-serif;
+  letter-spacing: .1em;
+  font-size: 28px;
+  margin: 56px;
+}
+
+a {
+  color: #ffffff;
+  background-color: #0a2540;
+  text-decoration: none;
+  border-radius: 24px;
+  display: inline-block;
+  font-size: 26px;
+  padding: .5em 1em;
+}
+
+a.inverted {
+  color: #0a2540;
+  background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+h1 {
+  font-size: 96px;
+}
+h2 {
+  font-size: 72px;
+}
+h3 {
+  font-size: 56px;
+}
+h4 {
+  font-size: 48px;
+}

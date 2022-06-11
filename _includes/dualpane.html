@@ -1,0 +1,9 @@
+{% for d in site.stuff %}
+<!--<div style="display:flex;justify-content:space-around;border: solid black 2px; background-color: #555555;height:300px; align-items:center;">-->
+<div class="dp-row">
+  <div class="dp-text" style="border: solid blue 1px; {% if d.text_align %}text-align:{{d.text_align}};{% endif %}">{{d.content}}</div>
+  <div class="dp-image" style="border: solid green 1px;">
+    <img class="dp-img" src="{{d.image_url}}" style="border: solid red 1px;">
+  </div>
+</div>
+{% endfor %}
