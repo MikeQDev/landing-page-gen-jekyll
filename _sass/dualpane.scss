@@ -2,18 +2,43 @@ div.dp-row {
   display: flex;
   flex-direction: column;
   margin: 0 0 20px;
+  div {
+    justify-content: center;
+  }
+}
+
+div.dp-row.image-first {
+  flex-direction: column-reverse;
 }
 
 div.dp-text {
   display: inherit;
+  flex-grow: 1;
   flex-direction: column;
 }
 
 div.dp-image {
   display: inherit;
+  flex-grow: 1;
 }
 
 img.dp-img {
   max-width: 100%;
-  margin: 0 auto;
+  user-select: none;
+}
+
+@media (min-width: 1280px) {
+  div.dp-row {
+    flex-direction: row;
+
+    div {
+      max-width: 50%;
+    }
+  }
+  div.dp-row.image-first {
+    flex-direction: row-reverse;
+  }
+  img.dp-img {
+    object-fit: contain;
+  }
 }
