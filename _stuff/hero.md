@@ -1,5 +1,6 @@
 ---
 image_url: 'https://recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/000/007/263/original/Axios_logo_-_RGB_-_clear_space.png?1580309119'
+weight: 0
 ---
 
 # Payments infrastructure for <span style="color:#0a2540;">the internet</span>
