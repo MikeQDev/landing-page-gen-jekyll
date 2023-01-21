@@ -5,7 +5,7 @@ body {
   background-color: white;
   min-height: 100vh;
   font-family: 'Didact Gothic', sans-serif;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   font-size: 28px;
   margin: 56px;
 }
@@ -17,7 +17,7 @@ a {
   border-radius: 24px;
   display: inline-block;
   font-size: 26px;
-  padding: .5em 1em;
+  padding: 0.5em 1em;
   user-select: none;
 }
 
@@ -26,11 +26,16 @@ a.inverted {
   background-color: #ffffff;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 h1 {
-  font-size: 96px;
+  font-size: 94px;
 }
 h2 {
   font-size: 72px;
@@ -39,7 +44,17 @@ h3 {
   font-size: 56px;
 }
 h4 {
-  font-size: 48px;
+  font-size: 44px;
+}
+h5 {
+  font-size: 32px;
+}
+h6 {
+  font-size: 22px;
+}
+
+p {
+  font-size: 18px;
 }
 
 @media (min-width: 1280px) {
