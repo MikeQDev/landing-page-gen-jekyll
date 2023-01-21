@@ -1,22 +1,24 @@
 {% assign dps = site.stuff | sort: 'weight' %}
 {% for d in dps %}
 <!--<div style="display:flex;justify-content:space-around;border: solid black 2px; background-color: #555555;height:300px; align-items:center;">-->
-<div class="dp-row {% if d.image_first == true %}image-first{% endif %}">
-  {% assign strippedContentSize = d.content | strip | size %}
-  {% if strippedContentSize != 0 %}
-  <div class="dp-text" style="
+<div class="dp-row">
+  <div class="dp-row-content {% if d.image_first == true %}image-first{% endif %}">
+    {% assign strippedContentSize = d.content | strip | size %}
+    {% if strippedContentSize != 0 %}
+    <div class="dp-text" style="
     {% if d.text_align %}text-align:{{d.text_align}};{% endif %}
     {% if d.image_url == null %}max-width:100%;{% endif %}
     ">
-    {{d.content | strip}}
-  </div>
-  {% endif %}
-  {% if d.image_url %}
-  <div class="dp-image {% if d.hide_image_on_mobile == true %}hidden{% endif %}" style="
+      {{d.content | strip}}
+    </div>
+    {% endif %}
+    {% if d.image_url %}
+    <div class="dp-image {% if d.hide_image_on_mobile == true %}hidden{% endif %}" style="
   {% if d.image_align %}justify-content:{{d.image_align}};{% endif %}
   {% if strippedContentSize == 0 %}max-width:100%;{% endif %}">
-    <img class=" dp-img" src="{{d.image_url}}">
+      <img class=" dp-img" src="{{d.image_url}}">
+    </div>
+    {% endif %}
   </div>
-  {% endif %}
 </div>
 {% endfor %}
