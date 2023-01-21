@@ -1,13 +1,13 @@
 ---
-image_url: 'https://recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/000/007/263/original/Axios_logo_-_RGB_-_clear_space.png?1580309119'
+image_url: assets/landingPage.webp
 weight: 0
 ---
 
-# Payments infrastructure for <span style="color:#0a2540;">the internet</span>
+# Landing Pages <span style="color:#0a2540;">made easy</span>
 
-#### Simplified without the headache
+#### Quickly stand up a landing page. No clicks necessary.
 
-Millions of companies of all sizes—from startups to Fortune 500s—use Stripe’s software and APIs to accept payments, send payouts, and manage their businesses online.
+Thousands of people like you want to market their products and services. Professional landing pages like this one are your front door
 
 [**Start now >**](https://google.com)
-[**Contact sales >**](https://google.com){:class="inverted"}
+[**View source >**](https://google.com){:class="inverted"}
