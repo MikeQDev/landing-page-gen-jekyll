@@ -1,2 +1,3 @@
 collections:
   stuff:
+exclude: ["README.md"]
