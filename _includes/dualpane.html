@@ -12,11 +12,10 @@
   </div>
   {% endif %}
   {% if d.image_url %}
-  <div class="dp-image" style="
+  <div class="dp-image {% if d.hide_image_on_mobile == true %}hidden{% endif %}" style="
   {% if d.image_align %}justify-content:{{d.image_align}};{% endif %}
-  {% if strippedContentSize == 0 %}max-width:100%;{% endif %}
-  ">
-    <img class="dp-img" src="{{d.image_url}}">
+  {% if strippedContentSize == 0 %}max-width:100%;{% endif %}">
+    <img class=" dp-img" src="{{d.image_url}}">
   </div>
   {% endif %}
 </div>

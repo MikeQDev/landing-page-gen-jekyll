@@ -1,6 +1,7 @@
 ---
 image_url: assets/landingPage.webp
 weight: 0
+hide_image_on_mobile: false
 ---
 
 # Landing Pages <span style="color:#0a2540;">made easy</span>

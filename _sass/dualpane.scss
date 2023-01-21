@@ -17,6 +17,10 @@ div.dp-text {
   flex-direction: column;
 }
 
+div.dp-image.hidden {
+  max-width: 0;
+  max-height: 0;
+}
 div.dp-image {
   display: inherit;
   flex-grow: 1;
@@ -40,5 +44,9 @@ img.dp-img {
   }
   img.dp-img {
     object-fit: contain;
+  }
+  div.dp-image.hidden {
+    max-width: unset;
+    max-height: unset;
   }
 }
