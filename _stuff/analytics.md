@@ -9,4 +9,4 @@ weight: 30
 
 Understand where leads are bouncing or clicking
 
-<a href="https://google.com" class="inverted"><b>Find analytic solutions ></b></a>
+[**Find analytic solutions >**](https://google.com){:class="inverted"}{:style="padding:0"}
