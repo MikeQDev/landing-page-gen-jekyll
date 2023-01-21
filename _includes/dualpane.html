@@ -2,7 +2,8 @@
 {% for d in dps %}
 <!--<div style="display:flex;justify-content:space-around;border: solid black 2px; background-color: #555555;height:300px; align-items:center;">-->
 <div class="dp-row">
-  <div class="dp-row-content {% if d.image_first == true %}image-first{% endif %}">
+  <div
+    class="dp-row-content {% if d.image_first == true %}image-first{% endif %} {% if d.image_first_mobile == true %}image-first-mobile{% endif %}">
     {% assign strippedContentSize = d.content | strip | size %}
     {% if strippedContentSize != 0 %}
     <div class="dp-text" style="
@@ -16,7 +17,7 @@
     <div class="dp-image {% if d.hide_image_on_mobile == true %}hidden{% endif %}" style="
   {% if d.image_align %}justify-content:{{d.image_align}};{% endif %}
   {% if strippedContentSize == 0 %}max-width:100%;{% endif %}">
-      <img class=" dp-img" src="{{d.image_url}}">
+      <img class="dp-img" src="{{d.image_url}}">
     </div>
     {% endif %}
   </div>
