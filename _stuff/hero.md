@@ -10,5 +10,5 @@ hide_image_on_mobile: false
 
 Thousands of people like you want to market their products and services. Professional landing pages like this one are your front door
 
-[**Start now >**](https://google.com)
-[**View source >**](https://google.com){:class="inverted"}
+[**Start now >**](https://github.com/MikeQDev/landing-page-gen-jekyll/#landing-page-jekyll)
+[**View source >**](https://github.com/MikeQDev/landing-page-gen-jekyll/){:class="inverted"}

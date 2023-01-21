@@ -7,5 +7,5 @@ weight: 1000
 
 ##### Simplified without the headache
 
-<a href="https://google.com"><b>Start now ></b></a>
-<a href="https://google.com" class="inverted"><b>View source ></b></a>
+<a href="https://github.com/MikeQDev/landing-page-gen-jekyll/#landing-page-jekyll"><b>Start now ></b></a>
+<a href="https://github.com/MikeQDev/landing-page-gen-jekyll/" class="inverted"><b>View source ></b></a>
