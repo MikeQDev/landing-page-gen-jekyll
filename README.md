@@ -13,7 +13,7 @@ bundle install
 To start the Jekyll local development server.
 
 ```
-bundle exec jekyll serve
+bundle exec jekyll serve [--host=0.0.0.0]
 ```
 
 To build the site. Output goes to `./_site/`.
