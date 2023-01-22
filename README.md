@@ -42,10 +42,8 @@ Add images to `./assets/`, then reference them in your markdown files
 
 ## Todo
 
-- See if gem dependencies can be reduced
 - Add usage notes and examples
 - Linting and formatting?
-- Lighthouse: SEO, metatags, accessibility, etc.
 - Should Ruby be upgraded?
 - Analytics?
 - Reusable 'theme'? Versioning?
