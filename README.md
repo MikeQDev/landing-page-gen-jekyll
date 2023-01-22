@@ -2,6 +2,8 @@
 
 Quickly generate landing pages to PoC new ideas
 
+### [Live demo](https://mikeqdev.github.io/landing-page-gen-jekyll/)
+
 ## Quick Start
 
 Ruby 2.5 --> `gem install bundler -v 2.3.14`
