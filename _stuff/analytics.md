@@ -1,5 +1,6 @@
 ---
 image_url: assets/integrationPlug.png
+image_alt: integration plug
 text_align: left
 # image_align: left
 weight: 30

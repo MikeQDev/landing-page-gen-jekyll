@@ -1,5 +1,6 @@
 ---
 image_url: assets/landingPage.webp
+image_alt: landing page dall-e generated
 weight: 0
 hide_image_on_mobile: false
 ---

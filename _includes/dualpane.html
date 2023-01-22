@@ -17,7 +17,7 @@
     <div class="dp-image {% if d.hide_image_on_mobile == true %}hidden{% endif %}" style="
   {% if d.image_align %}justify-content:{{d.image_align}};{% endif %}
   {% if strippedContentSize == 0 %}max-width:100%;{% endif %}">
-      <img class="dp-img" src="{{d.image_url}}">
+      <img class="dp-img" src="{{d.image_url}}" alt="{{d.image_alt}}">
     </div>
     {% endif %}
   </div>

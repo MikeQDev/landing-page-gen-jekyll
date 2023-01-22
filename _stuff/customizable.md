@@ -1,5 +1,6 @@
 ---
 image_url: assets/watercolor.jpg
+image_alt: creative watercolor
 image_first: true
 image_first_mobile: false
 weight: 40

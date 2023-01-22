@@ -1,5 +1,6 @@
 ---
 image_url: assets/arrowRight.png
+image_alt: right arrow go
 #text_align: center
 image_align: center
 image_first: true
